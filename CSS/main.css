@@ -1,0 +1,226 @@
+/************ POLICE *************/
+
+@font-face 
+{
+	font-family:futura-pt;
+	src:url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),
+	url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/d?subset_id=2&fvd=n3&v=3) format("woff"),
+	url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/a?subset_id=2&fvd=n3&v=3) format("opentype");
+	font-weight:300;
+	font-style:normal;
+}
+/*********************************/
+
+/******* ANIMATIONS **************/
+@keyframes barreA 
+{
+	0% {width: 1px;}
+	100% {width: 80vw;}
+}
+/*********************************/
+
+
+/******* BALISES *****************/
+body 
+{
+	background-color: #171717;
+	font-family: "futura-pt";
+	color: white;
+}
+
+ul
+{
+	list-style: none;
+}
+hr
+{
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+table, td
+{
+	text-align: center;
+}
+
+img:hover
+{
+	opacity: 0.8;
+}
+/*********************************/
+
+
+/******* CLASSES *****************/
+.mainWindow
+{
+	position: absolute;
+	left: 260px;
+	top: 10px;
+	width: 80vw;
+	height: 150vh;
+	padding: 30px;
+}
+
+.petiteBarre
+{
+	border: 1px solid white;
+	width: 1px;
+	margin-right: auto;
+	margin-left: auto;
+	animation-name: barreA;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+
+}
+
+.titreWindow
+{
+	text-align: center;
+	font-size: 35px;
+	letter-spacing: 0.1em;
+}
+
+.texte
+{
+	font-size: 20px;
+	color: #B0E0E6;
+}
+
+.h2-titre
+{
+	text-transform: uppercase;
+	padding-top: 20px;
+	letter-spacing: 0.1em;
+}
+
+.h3-titre
+{
+	text-transform: uppercase;
+	padding-top: 20px;
+	letter-spacing: 0.1em;
+}
+
+.bebeHR
+{
+	border: 1px solid grey;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: grey;
+	opacity: 0.9;
+}
+
+.imageVikings
+{
+	width: 80%;
+}
+
+.iconContact
+{
+	margin-top: 50px;
+	width: 30px;
+}
+
+.barre
+{
+	color: white;
+	width: 80vw;
+	margin-right: auto;
+}
+
+.listePres
+{
+	list-style: square;
+	font-size: 20px;
+	color : #B0E0E6;
+}
+
+.barreSeparation
+{
+	color: white;
+	opacity: 0.8;
+	width: 30vh;
+}
+
+/*********************************/
+
+
+/********* ID ********************/
+#textContactTwitter
+{
+	position: absolute;
+	left: 80px;
+	top: 380px;
+	font-size: 25px;
+}
+
+#textContactMail
+{
+	position: absolute;
+	left: 80px;
+	top: 145px;
+	font-size: 25px;	
+}
+
+#textContactLinkedIn
+{
+	position: absolute;
+	left: 80px;
+	top: 235px;
+	font-size: 25px;	
+}
+
+#textContactGitHub
+{
+	position: absolute;
+	left: 80px;
+	top: 314px;
+	font-size: 25px;	
+}
+
+#img-tableau
+{
+	width: 600px;
+	height: 600px;
+	margin-left: 29em;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+}
+
+#menuProjets
+{
+	font-weight: 30px;
+}
+
+#img-proto, #img-main
+{
+	width: 85%;
+}
+
+#menuProjets
+{
+	list-style: square;
+	font-size: 20px;
+}
+
+#tableauRoll
+{
+	margin-top: -40px;
+	border-spacing: 65px;
+}
+
+#tableauRep
+{
+	margin-top: -40px;
+	border-spacing: 65px;
+}
+
+#img-grappin
+{
+	margin-left: 23em;
+}
+/*********************************/
