@@ -26,6 +26,10 @@ body
 	background-color: #171717;
 	font-family: "futura-pt";
 	color: white;
+	/*position: relative;
+	min-width: 1024px;
+    min-height: 768px;
+    height: 100%;*/
 }
 
 ul
@@ -145,6 +149,13 @@ img:hover
 	width: 30vh;
 }
 
+.texteProjets
+{
+	font-size: 20px;
+	color: #B0E0E6;
+	text-align: left;
+	margin-left: 10px;
+}
 /*********************************/
 
 
