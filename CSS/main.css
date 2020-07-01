@@ -1,3 +1,12 @@
+
+@media (min-width: 480px) and (max-width: 780px)
+{
+
+}
+
+
+
+
 /************ POLICE *************/
 
 @font-face 
@@ -26,10 +35,8 @@ body
 	background-color: #171717;
 	font-family: "futura-pt";
 	color: white;
-	/*position: relative;
-	min-width: 1024px;
-    min-height: 768px;
-    height: 100%;*/
+	width: auto;
+	position: none;
 }
 
 ul
