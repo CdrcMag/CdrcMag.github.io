@@ -35,8 +35,6 @@ body
 	background-color: #171717;
 	font-family: "futura-pt";
 	color: white;
-	width: auto;
-	position: none;
 }
 
 ul
@@ -67,12 +65,13 @@ img:hover
 /******* CLASSES *****************/
 .mainWindow
 {
-	position: absolute;
+	
 	left: 260px;
 	top: 10px;
 	width: 80vw;
 	height: 150vh;
 	padding: 30px;
+	position: absolute;
 }
 
 .petiteBarre
